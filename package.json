@@ -16,18 +16,15 @@
     "@types/bcrypt": "^6.0.0",
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
-    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "fs-extra": "^11.3.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^9.0.0",
     "multer": "^2.0.2",
-    "supertest": "^7.1.4"
   },
   "devDependencies": {
     "cross-env": "^10.1.0",
-    "jest": "^30.2.0",
     "nodemon": "^3.1.11"
   }
 }
