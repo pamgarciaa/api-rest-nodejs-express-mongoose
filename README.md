@@ -22,7 +22,7 @@ API Backend robusta desarrollada con Node.js y Express para una plataforma de bl
 
 ## ⚙️ Instalación y Configuración
 - **Crea un archivo .env en la raíz del proyecto y añade las siguientes variables:
-- **PORT=3000
-- **MONGO_URI=tu_cadena_de_conexion_mongodb
-- **JWT_SECRET=tu_secreto_super_seguro
-- **NODE_ENV=development
+- **PORT**=3000
+- **MONGO_URI**=tu_cadena_de_conexion_mongodb
+- **JWT_SECRET**=tu_secreto_super_seguro
+- **NODE_ENV**=development
