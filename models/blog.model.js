@@ -2,16 +2,22 @@ import mongoose from "mongoose";
 
 const blogSchema = new mongoose.Schema(
   {
+    title: {
+      type: String,
+      required: true,
+      trim: true,
+      unique: true,
     },
 
     content: {
-      type: String, 
-      required: true, 
+      type: String,
+      required: true,
+      trim: true,
     },
 
     image: {
-      type: String, 
-      required: true, 
+      type: String,
+      required: true,
     },
 
     author: {
@@ -19,15 +25,14 @@ const blogSchema = new mongoose.Schema(
 
       ref: "User",
 
-      required: true, 
+      required: true,
     },
   },
 
   {
-    timestamps: true, 
+    timestamps: true,
   }
 );
-
 
 const Blog = mongoose.model("Blog", blogSchema);
 
