@@ -21,7 +21,7 @@
     "fs-extra": "^11.3.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^9.0.0",
-    "multer": "^2.0.2",
+    "multer": "^2.0.2"
   },
   "devDependencies": {
     "cross-env": "^10.1.0",
